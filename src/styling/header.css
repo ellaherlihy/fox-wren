@@ -8,6 +8,16 @@
   font-family: 'Cygnet', sans-serif;
 }
 
+.header--link {
+  text-decoration: none;
+  color: black;
+}
+
+.header--link:hover {
+  text-decoration: underline;
+}
+
+
 /* tablets & small desktops */
 @media (min-width: 769px) and (max-width: 992px) {
 

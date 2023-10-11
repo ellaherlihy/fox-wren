@@ -1,5 +1,10 @@
 @import "/src/styling/home-page.css";
 @import "/src/styling/header.css";
+@import "/src/styling/about.css";
+
+
+@import url('https://fonts.cdnfonts.com/css/cygnet');
+
 
 h1, h2 {
   font-family: 'Cygnet', sans-serif;
