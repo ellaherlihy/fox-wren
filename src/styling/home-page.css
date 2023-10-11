@@ -18,16 +18,51 @@
 
 .home-page--container > h1 {
   color: white;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .home-page--links {
+  font-size: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+}
+
+.home-page--link {
+  text-decoration: none;
   color: white;
   font-family: 'Cygnet', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
+}
+
+.home-page--link:hover {
+  text-decoration: underline;
+
+}
+
+/* tablets & small desktops */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .home-page--container > h1 {
+    font-size: 8rem;
+  }
+
+  .home-page--link {
+    font-size: 3rem;
+  }
+}
+
+/* larger desktops */
+@media (min-width: 1201px) {
+
+  .home-page--container > h1 {
+    font-size: 8rem;
+  }
+
+  .home-page--link {
+    font-size: 4rem;
+  }
 }

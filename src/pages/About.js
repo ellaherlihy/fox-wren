@@ -1,11 +1,9 @@
 import React from "react";
+import Header from "../components/Header";
 
 const About = () => {
   return(
-      <section>
-      <h1>About</h1>
-      <h2>This is the About component!</h2>
-      </section>
+      <Header />
   )
 }
 
