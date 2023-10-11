@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
-import Header from './components/Header'
+// import Header from './components/Header'
 
 const App = () => {
   return (
