@@ -5,6 +5,7 @@
 .about-page--text h1 {
   font-size: 2rem;
   padding: 0 0 1rem 0;
+  text-align: center;
 }
 
 .about-page--text p {
@@ -16,11 +17,17 @@
 .about-page--services ul {
   padding-left: 1rem;
   margin: 0;
+  list-style: none;
 }
 
 .about-page--services ul li {
   padding: 0;
   margin: 0;
+  text-align: center;
+}
+
+.about-page--services h1 {
+  margin: 2rem 0 0 0;
 }
 
 ul li:first-child {
@@ -36,6 +43,7 @@ ul li:first-child {
 .about-page--clients h1 {
   font-size: 2rem;
   padding: 2rem 0 1rem 0;
+  text-align: center;
 }
 
 .about-page--client-logos {
@@ -47,8 +55,7 @@ ul li:first-child {
 
 .about-page--clients img {
   /* flex: 0 1 calc(33.33% - 10px); */
-  margin: 1rem 1rem 0 1rem;
-  padding-top: .5rem;
+  margin: 0rem 1rem 0 1rem;
   max-width: 4rem;
   height: auto;
 }
@@ -57,7 +64,7 @@ ul li:first-child {
 @media (min-width: 769px) and (max-width: 1200px) {
 
   .about-page--container {
-    padding: 2rem 2rem 2rem 4rem;
+    padding: 2rem 10rem 2rem 10rem;
   }
 
   .about-page--text > h1 {
@@ -67,19 +74,23 @@ ul li:first-child {
 
   .about-page--text > p {
     font-size: 2rem;
-    text-align: left;
+    text-align: justify;
   }
 
   .about-page--text {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .about-page--clients img {
     /* flex: 0 1 calc(33.33% - 10px); */
-    margin: 1rem 1rem 0 1rem;
+    margin: 0 1rem 0 1rem;
     padding-top: .5rem;
     max-width: 8rem;
     height: fit-content;
+  }
+
+  .about-page--services ul li {
+    font-size: 2rem;
   }
 
 }
@@ -88,7 +99,7 @@ ul li:first-child {
 @media (min-width: 1201px) {
 
   .about-page--container {
-    padding: 2rem 2rem 2rem 4rem;
+    padding: 0 10rem 2rem 10rem;
   }
 
   .about-page--text > h1 {
@@ -97,11 +108,15 @@ ul li:first-child {
 
   .about-page--text > p {
     font-size: 2rem;
-    text-align: left;
+    text-align: justify;
   }
 
   .about-page--text {
     /* width: 50%; */
+  }
+
+  .about-page--services ul li {
+    font-size: 2rem;
   }
 
   .about-page--clients img {
