@@ -55,10 +55,8 @@ const About = () => {
               <img src={NetflixLogo} alt="netflix-logo"/>
               <img src={DBLogo} alt="DB-logo"/>
               <img src={AGLogo} alt="Ag-logo"/>
-              <img src={DLALogo} alt="DLA-logo"/>
               <img src={Rathbones} alt="Rathbones-logo"/>
               <img src={BitmexLogo} alt="Bitmex-logo"/>
-              <img src={BrewinDolphin} alt="BD-logo"/>
               <img src={BarclaysLogo} alt="Barclays-logo"/>
               <img src={Pfizer} alt="Pfizer-logo"/>
               <img src={JBLogo} alt="JB-logo"/>
@@ -72,6 +70,8 @@ const About = () => {
               <img src={BMW} alt="BMW"/>
               <img src={KWAM} alt="KWAM"/>
               <img src={Airbnb} alt="Airbnb"/>
+              <img src={BrewinDolphin} alt="BD-logo"/>
+              <img src={DLALogo} alt="DLA-logo"/>
               <img src={RR} alt="RR-logo"/>
             </div>
           </div>

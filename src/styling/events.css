@@ -2,4 +2,26 @@
   padding: 2rem 2rem 2rem 2rem;
   background-color: rgb(246, 244, 239);
   text-align: center;
+  width: 100%;
+}
+
+.events-page--container h1 {
+  padding: 0 0 2rem 0;
+}
+
+.events-page--container h2 {
+  padding: 1rem 0 2rem 0;
+  font-size: 1rem;
+}
+
+.events-page--event-preview img {
+  width: 100%;
+  height: auto;
+}
+
+.events-page--event-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
