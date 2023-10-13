@@ -4,7 +4,7 @@
 }
 
 .home-page--container {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/src/images/flowers.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/src/images/flowers.jpg");
   background-position: center;
   background-size: cover;
   object-fit: cover;
@@ -15,6 +15,7 @@
   justify-content: center;
   margin: auto;
 }
+
 
 .home-page--container > h1 {
   color: white;

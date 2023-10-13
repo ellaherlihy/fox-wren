@@ -4,7 +4,7 @@
 }
 
 .about-page--main-content {
-  border: .1rem solid rgb(144, 142, 142);
+  border: .1rem solid rgb(211, 208, 208);
   /* outline: .1rem solid black;
   outline-offset: .2rem; */
   border-radius: 1rem;
@@ -53,7 +53,7 @@ ul li:last-child {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: .5rem 0 3rem 0;
   margin: 0;
-  border: .1rem solid rgb(144, 142, 142);
+  border: .1rem solid rgb(211, 208, 208);
   /* outline: .1rem solid black;
   outline-offset: .2rem; */
   border-radius: 1rem;
@@ -62,7 +62,7 @@ ul li:last-child {
 }
 
 .about-page--clients {
-  border: .1rem solid rgb(144, 142, 142);
+  border: .1rem solid rgb(211, 208, 208);
   /* outline: .1rem solid black;
   outline-offset: .2rem; */
   border-radius: 1rem;
@@ -147,7 +147,6 @@ ul li:last-child {
   .about-page--text h1 {
     text-align: center;
     font-weight: bolder;
-
   }
 
   .about-page--text p {

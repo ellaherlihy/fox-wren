@@ -1,4 +1,4 @@
-.event-page {
+.event--page {
   width: 100%;
   background-color: rgb(246, 244, 239);
 }
@@ -15,10 +15,13 @@
 }
 
 .event--image-gallery {
-  margin: 1rem 1rem 1rem 1rem;
+  padding: 0 1rem 1rem 1rem;
+  /* padding: 0; */
   display: flex;
   flex-wrap: wrap;
-  /* background-color: rgb(246, 244, 239); */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 244, 239);
 }
 
 .event--image {
@@ -57,6 +60,12 @@
 
   .event--container p {
     font-size: 1.5rem;
+  }
+
+  .event--image-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
