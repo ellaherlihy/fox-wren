@@ -5,7 +5,7 @@ const Home = () => {
   return (
       <div className="home-page">
         <div className="home-page--container">
-        <Fade duration={4000}>
+        <Fade duration={3000}>
           <h1>Leah Herlihy</h1>
         </Fade>
           <div className='home-page--links'>

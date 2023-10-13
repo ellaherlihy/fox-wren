@@ -21,7 +21,7 @@
   font-size: 3rem;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-family: 'Cygnet', sans-serif;
+  font-family: 'Canto';
 }
 
 .home-page--links {
@@ -35,7 +35,7 @@
 .home-page--link {
   text-decoration: none;
   color: white;
-  font-family: 'Cygnet', sans-serif;
+  font-family: 'Canto';
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }

@@ -12,11 +12,14 @@
 
 .events-page--container h1 {
   padding: 0 0 2rem 0;
+  font-family: 'Canto';
 }
 
 .events-page--container h2 {
   padding: 1rem 0 0 0;
   font-size: 1rem;
+  font-family: 'Canto';
+
 }
 
 .event-preview--img {

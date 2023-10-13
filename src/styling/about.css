@@ -11,17 +11,21 @@
   padding: 1rem 2rem 1rem 2rem;
   margin: 0 0 2rem 0;
   background-color: white;
+  border-collapse: separate;
+
 }
 
 .about-page--text h1 {
   font-size: 2rem;
   padding: 0 0 1rem 0;
   text-align: center;
+  font-family: 'Canto';
+
 }
 
 .about-page--text p {
   font-size: 1rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Canto';
   text-align: justify;
 }
 
@@ -35,6 +39,8 @@
   padding: 0;
   margin: 0;
   text-align: center;
+  font-family: 'Canto';
+
 }
 
 .about-page--services h1 {
@@ -76,6 +82,10 @@ ul li:last-child {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+}
+.about-page--clients h1 {
+  font-family: 'Canto';
 }
 
 .about-page--clients img {
