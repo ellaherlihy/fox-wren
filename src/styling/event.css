@@ -1,3 +1,8 @@
+.event-page {
+  width: 100%;
+  background-color: rgb(246, 244, 239);
+}
+
 .event--container {
   padding: 2rem 2rem 1rem 2rem;
   background-color: rgb(246, 244, 239);
@@ -13,6 +18,7 @@
   margin: 1rem 1rem 1rem 1rem;
   display: flex;
   flex-wrap: wrap;
+  /* background-color: rgb(246, 244, 239); */
 }
 
 .event--image {

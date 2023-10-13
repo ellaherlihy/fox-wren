@@ -6,11 +6,13 @@ export default function Event(props) {
   return (
     <div>
       <Header />
-        <div className="event--container">
-          <Fade bottom>
-            <h1>{props.eventTitle}</h1>
-            <p>{props.eventDescription}</p>
-          </Fade>
+        <div className="event--page">
+          <div className="event--container">
+            <Fade bottom>
+              <h1>{props.eventTitle}</h1>
+              <p>{props.eventDescription}</p>
+            </Fade>
+          </div>
         </div>
     </div>
   )

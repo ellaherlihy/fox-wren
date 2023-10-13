@@ -13,6 +13,7 @@ import SummerParty from './pages/SummerParty';
 import Debate from './pages/Debate';
 import Talks from './pages/Talks';
 import ApolloSummerParty from './pages/ApolloSummerParty';
+import Footer from './components/Footer';
 
 const App = () => {
   useEffect(() => {
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/apollo-summer-party" element={ <ApolloSummerParty /> }/>
         </Routes>
       </div>
+      <Footer />
     </div>
   )
 }

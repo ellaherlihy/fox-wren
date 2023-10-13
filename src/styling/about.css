@@ -111,6 +111,7 @@ ul li:last-child {
   .about-page--text h1 {
     text-align: center;
     padding: 0 0 1rem 0;
+    font-weight: bolder;
   }
 
   .about-page--text p {
@@ -145,6 +146,8 @@ ul li:last-child {
 
   .about-page--text h1 {
     text-align: center;
+    font-weight: bolder;
+
   }
 
   .about-page--text p {
