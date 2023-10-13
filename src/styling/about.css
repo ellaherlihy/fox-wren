@@ -108,14 +108,13 @@ ul li:last-child {
     padding: 1rem 4rem 1rem 4rem;
   }
 
-
-  .about-page--text > h1 {
+  .about-page--text h1 {
     text-align: center;
     padding: 0 0 1rem 0;
   }
 
-  .about-page--text > p {
-    font-size: 1rem;
+  .about-page--text p {
+    font-size: 1.5rem;
     text-align: justify;
   }
 
@@ -128,7 +127,7 @@ ul li:last-child {
   }
 
   .about-page--services ul li {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -144,11 +143,11 @@ ul li:last-child {
     padding: 2rem 6rem 2rem 6rem;
   }
 
-  .about-page--text > h1 {
+  .about-page--text h1 {
     text-align: center;
   }
 
-  .about-page--text > p {
+  .about-page--text p {
     font-size: 1.5rem;
     text-align: justify;
     /* padding: 0 3rem 0 3rem; */
@@ -157,8 +156,6 @@ ul li:last-child {
   .about-page--text {
     /* width: 50%; */
   }
-
-
 
   .about-page--services ul li {
     font-size: 1.5rem;
