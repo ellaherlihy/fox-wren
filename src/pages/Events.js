@@ -15,37 +15,52 @@ export default function Events() {
     <div>
     <Header />
       <div className="events-page--container">
-        <h1>Events</h1>
         <div className="events-page--event-preview">
-          <img src={spectatorPoYAImage} alt="" />
+          <div className="event-preview--img">
+            <img src={spectatorPoYAImage} alt="" />
+          </div>
           <h2>Spectator Parliamentarian of the Year Awards</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={ApolloAwardsimage} alt="" />
+          <div className="event-preview--img">
+            <img src={ApolloAwardsimage} alt="" />
+          </div>
           <h2>Apollo Awards Dinner</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={PrivateDinnersImage} alt="" />
+          <div className="event-preview--img">
+            <img src={PrivateDinnersImage} alt="" />
+          </div>
           <h2>Private Dinners</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={SerpentinePartyImage} alt="" />
+          <div className="event-preview--img">
+            <img src={SerpentinePartyImage} alt="" />
+          </div>
           <h2>Serpentine Pavilion Party</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={SpectatorSummerPartyImage} alt="" />
+          <div className="event-preview--img">
+            <img src={SpectatorSummerPartyImage} alt="" />
+          </div>
           <h2>Spectator Summer Party</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={DebateImage} alt="" />
+          <div className="event-preview--img">
+            <img src={DebateImage} alt="" />
+          </div>
           <h2>Brexit Debate at the London Palladium</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={TalksImage} alt="" />
+          <div className="event-preview--img">
+            <img src={TalksImage} alt="" />
+          </div>
           <h2>Talks</h2>
         </div>
         <div className="events-page--event-preview">
-          <img src={ApolloSummerPartyImage} alt="" />
+          <div className="event-preview--img">
+            <img src={ApolloSummerPartyImage} alt="" />
+          </div>
           <h2>Apollo Summer Party</h2>
         </div>
       </div>

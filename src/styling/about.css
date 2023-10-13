@@ -103,7 +103,7 @@ ul li:last-child {
   }
 
   .about-page--text > p {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: justify;
   }
 
@@ -116,11 +116,11 @@ ul li:last-child {
     margin: 2rem 2rem 2rem 2rem;
     padding-top: .5rem;
     max-width: 8rem;
-  height: auto;
+    height: auto;
   }
 
   .about-page--services ul li {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
 }
@@ -137,7 +137,7 @@ ul li:last-child {
   }
 
   .about-page--text > p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
   }
 
@@ -146,7 +146,7 @@ ul li:last-child {
   }
 
   .about-page--services ul li {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .about-page--clients img {

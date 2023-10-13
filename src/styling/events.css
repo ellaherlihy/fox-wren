@@ -1,8 +1,13 @@
 .events-page--container {
   padding: 2rem 2rem 2rem 2rem;
   background-color: rgb(246, 244, 239);
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  text-align: center;
+
 }
 
 .events-page--container h1 {
@@ -14,11 +19,19 @@
   font-size: 1rem;
 }
 
-.events-page--event-preview img {
-  width: 100%;
-  height: auto;
-  border-radius: 1rem;
+.event-preview--img {
+  min-width:20rem;
+  max-height:20rem;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
 
+.events-page--event-preview img {
+  object-fit: cover;
+  /* min-width:20rem;
+  max-height:20rem; */
+  border-radius: 1rem;
 }
 
 .events-page--event-preview {
@@ -38,14 +51,42 @@
 
 /* tablets & small desktops */
 @media (min-width: 769px) and (max-width: 1200px) {
-  .events-page--event-preview img {
-    width: 40rem;
+  .events-page--event-preview {
+    margin: 0 1rem 3rem 1rem;
   }
+
+  .event-preview--img {
+    width: 30rem; /* Set a fixed width for the container */
+    height: auto; /* Set a fixed height for the container */
+    overflow: hidden; /* Clip the image that overflows the container */
+    object-fit: cover;
+  }
+
+  .events-page--event-preview img {
+    object-fit: cover;
+    /* min-width:20rem;
+    max-height:20rem; */
+  }
+
 }
 
 /* larger desktops */
 @media (min-width: 1201px) {
+
+  .events-page--event-preview {
+    margin: 0 1rem 3rem 1rem;
+  }
+
+  .event-preview--img {
+    width: 30rem; /* Set a fixed width for the container */
+    height: auto; /* Set a fixed height for the container */
+    overflow: hidden; /* Clip the image that overflows the container */
+    object-fit: cover;
+  }
+
   .events-page--event-preview img {
-    width: 40rem;
+    object-fit: cover;
+    /* min-width:20rem;
+    max-height:20rem; */
   }
 }
