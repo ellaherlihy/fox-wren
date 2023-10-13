@@ -15,6 +15,7 @@ export default function Events() {
     <div>
       <Header />
       <div className="events-page--container">
+        <h1>Events</h1>
         <Link to="/spectator-parlimentarian-awards">
           <div className="events-page--event-preview">
             <div className="event-preview--img">
@@ -23,48 +24,62 @@ export default function Events() {
             <h2>Spectator Parliamentarian of the Year Awards</h2>
           </div>
         </Link>
-        <div className="events-page--event-preview">
-          <div className="event-preview--img">
-            <img src={ApolloAwardsimage} alt="" />
+        <Link to="/apollo-awards">
+          <div className="events-page--event-preview">
+            <div className="event-preview--img">
+              <img src={ApolloAwardsimage} alt="" />
+            </div>
+            <h2>Apollo Awards Dinner</h2>
           </div>
-          <h2>Apollo Awards Dinner</h2>
-        </div>
-        <div className="events-page--event-preview">
-          <div className="event-preview--img">
-            <img src={PrivateDinnersImage} alt="" />
+        </Link>
+        <Link to="/private-dinners">
+          <div className="events-page--event-preview">
+            <div className="event-preview--img">
+              <img src={PrivateDinnersImage} alt="" />
+            </div>
+            <h2>Private Dinners</h2>
           </div>
-          <h2>Private Dinners</h2>
-        </div>
+        </Link>
+        <Link to="/serpentine-party">
         <div className="events-page--event-preview">
           <div className="event-preview--img">
             <img src={SerpentinePartyImage} alt="" />
           </div>
           <h2>Serpentine Pavilion Party</h2>
         </div>
-        <div className="events-page--event-preview">
-          <div className="event-preview--img">
-            <img src={SpectatorSummerPartyImage} alt="" />
+        </Link>
+        <Link to="/summer-party">
+          <div className="events-page--event-preview">
+            <div className="event-preview--img">
+              <img src={SpectatorSummerPartyImage} alt="" />
+            </div>
+            <h2>Spectator Summer Party</h2>
           </div>
-          <h2>Spectator Summer Party</h2>
-        </div>
-        <div className="events-page--event-preview">
-          <div className="event-preview--img">
-            <img src={DebateImage} alt="" />
+        </Link>
+        <Link to="/brexit-debate">
+          <div className="events-page--event-preview">
+            <div className="event-preview--img">
+              <img src={DebateImage} alt="" />
+            </div>
+            <h2>Brexit Debate at the London Palladium</h2>
           </div>
-          <h2>Brexit Debate at the London Palladium</h2>
-        </div>
-        <div className="events-page--event-preview">
-          <div className="event-preview--img">
-            <img src={TalksImage} alt="" />
+        </Link>
+        <Link to="/talks">
+          <div className="events-page--event-preview">
+            <div className="event-preview--img">
+              <img src={TalksImage} alt="" />
+            </div>
+            <h2>Talks</h2>
           </div>
-          <h2>Talks</h2>
-        </div>
+        </Link>
+        <Link to="/apollo-summer-party">
         <div className="events-page--event-preview">
           <div className="event-preview--img">
             <img src={ApolloSummerPartyImage} alt="" />
           </div>
           <h2>Apollo Summer Party</h2>
         </div>
+        </Link>
       </div>
     </div>
   )

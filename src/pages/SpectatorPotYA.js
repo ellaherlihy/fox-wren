@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Event from "../components/Event";
 
 import image1 from "../images/events/spectator-parlimentarian-awards/241121_parli2021-001.jpeg"
@@ -13,6 +13,9 @@ import image8 from "../images/events/spectator-parlimentarian-awards/241121_parl
 const images = [image1, image2, image3, image4, image5, image6, image7, image8];
 
 export default function SpectatorPotYA() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [enlarged, setEnlarged] = useState(null);
   const enlargeImage = (image) => {
     setEnlarged(image);

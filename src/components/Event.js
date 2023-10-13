@@ -1,14 +1,17 @@
 import React from "react";
 import Header from "./Header";
+import Fade from 'react-reveal/Fade';
 
 export default function Event(props) {
   return (
     <div>
       <Header />
-      <div className="event--container">
-        <h1>{props.eventTitle}</h1>
-        <p>{props.eventDescription}</p>
-      </div>
+        <div className="event--container">
+          <Fade bottom>
+            <h1>{props.eventTitle}</h1>
+            <p>{props.eventDescription}</p>
+          </Fade>
+        </div>
     </div>
   )
 }
