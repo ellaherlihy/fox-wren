@@ -31,6 +31,10 @@
   justify-content: center;
 }
 
+.contact-page--button a {
+  text-decoration: none;
+}
+
 .contact-page--button:hover {
   background-color: rgb(181, 171, 178);
 }
