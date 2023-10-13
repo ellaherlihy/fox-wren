@@ -22,8 +22,6 @@ import IMLogo from "../images/client-logos/investec.png"
 import BMW from "../images/client-logos/BMW.png"
 import KWAM from "../images/client-logos/KWAM.png"
 import Airbnb from "../images/client-logos/airbnb.png"
-import Fade from 'react-reveal/Fade';
-
 
 const About = () => {
   return(
