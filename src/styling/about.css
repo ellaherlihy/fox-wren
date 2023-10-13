@@ -3,6 +3,16 @@
   background-color: rgb(246, 244, 239);
 }
 
+.about-page--main-content {
+  border: .2rem solid black;
+  outline: .1rem solid black;
+  outline-offset: .2rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0 0 2rem 0;
+  background-color: white;
+}
+
 .about-page--text h1 {
   font-size: 2rem;
   padding: 0 0 1rem 0;
@@ -28,17 +38,31 @@
 }
 
 .about-page--services h1 {
-  margin: 2rem 0 0 0;
+  margin: 0 0 0 0;
 }
 
 ul li:last-child {
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
 .about-page--services {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: .5rem 0 3rem 0;
   margin: 0;
+  border: .2rem solid black;
+  outline: .1rem solid black;
+  outline-offset: .2rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: white;
+}
+
+.about-page--clients {
+  border: .2rem solid black;
+  outline: .1rem solid black;
+  outline-offset: .2rem;
+  border-radius: 1rem;
+  margin: 2rem 0 0 0;
 }
 
 .about-page--clients h1 {
@@ -84,7 +108,7 @@ ul li:last-child {
   }
 
   .about-page--text {
-    /* width: 50%; */
+
   }
 
   .about-page--clients img {

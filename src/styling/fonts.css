@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Bookman';
+  font-family:'Bookman';
   src: local('Bookman'),
-       url('../fonts/Bookman/Bookman Regular/Bookman Regular.ttf') format('regular'),
+       url("src/font/Bookman/Bookman Regular/Bookman Regular.ttf"),
 }

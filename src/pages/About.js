@@ -30,8 +30,8 @@ const About = () => {
         <Header />
         <div className="about-page--container">
           <div className="about-page--text">
-            <h1>About</h1>
             <p className="about-page--main-content">
+              <h1>About</h1>
               I am an events professional with 15 years’ experience organising a variety of high profile events with prime ministers, film stars, celebrities, international politicians, high profile artists, news broadcasters and leaders in business.
               Events have ranged from 2000-seater auditorium evenings to intimate boardroom dinners and everything in between.
               I have an excellent network of contacts in the events industry, and strong success at nurturing and leading a team.
