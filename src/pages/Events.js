@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-// import EventSummary from "../components/EventSummary";
-// import { eventSummariesData } from "../EventSummariesData";
+import { Link } from 'react-router-dom';
+
 import spectatorPoYAImage from "../images/events/spectator-parlimentarian-awards/241121_parli2021-002.jpeg"
 import ApolloAwardsimage from "../images/events/Apollo/Apollo_Awards_2016_small_017.jpeg"
 import PrivateDinnersImage from "../images/events/Private Dinners/Clare's+Nikon+2016+342+-+Copy.jpeg"
@@ -13,14 +13,16 @@ import ApolloSummerPartyImage from "../images/events/Apollo Summer Party/2016-07
 export default function Events() {
   return (
     <div>
-    <Header />
+      <Header />
       <div className="events-page--container">
-        <div className="events-page--event-preview">
-          <div className="event-preview--img">
-            <img src={spectatorPoYAImage} alt="" />
+        <Link to="/spectator-parlimentarian-awards">
+          <div className="events-page--event-preview">
+            <div className="event-preview--img">
+              <img src={spectatorPoYAImage} alt="" />
+            </div>
+            <h2>Spectator Parliamentarian of the Year Awards</h2>
           </div>
-          <h2>Spectator Parliamentarian of the Year Awards</h2>
-        </div>
+        </Link>
         <div className="events-page--event-preview">
           <div className="event-preview--img">
             <img src={ApolloAwardsimage} alt="" />

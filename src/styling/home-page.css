@@ -18,14 +18,14 @@
 
 .home-page--container > h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 6rem;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: 'Canto';
 }
 
 .home-page--links {
-  font-size: 1rem;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
