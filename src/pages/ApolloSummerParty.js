@@ -25,9 +25,8 @@ export default function ApolloSummerParty() {
   return (
     <div>
       <Event
-        eventTitle="Spectator Parliamentarian of the Year Awards 2021"
-        eventDescription="Management of this prestigious awards ceremony in its entirety, from the illustrious guest list to the stage design; from the floral arrangements to the menu choices.
-        This event is a firm favourite in the calendar of the great and good of Westminster and political media."
+        eventTitle="Apollo Summer Party"
+        eventDescription="Apollo magazine’s annual garden party, where leading figures from the museum and art worlds gather in the garden of the publication’s offices."
       />
       <div className="event--image-gallery">
         {images.map((image, index) => (
